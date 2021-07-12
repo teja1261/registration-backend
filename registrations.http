@@ -1,0 +1,19 @@
+Get http://localhost:5002/registration/
+
+###
+
+POST  http://localhost:5002/registration/
+Content-Type: application/json
+
+{
+    "user_id": 13,
+    "Name": "test13",
+    "Email": "test13@gmail.com",
+    "Mobile": 6547893214,
+    "DOB": "1993-02-22",
+    "JobType": "PartTime"
+}
+
+###
+
+DELETE http://localhost:5002/registration/13
